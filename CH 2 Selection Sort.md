@@ -2,6 +2,17 @@
 
 in this chapter:
 
-1.
-2.
-3.
+1. [Arrays and Linked lists](#arrays).
+2. Selection sort algorithm.
+
+### - How memory works
+
+
+
+<a name="arrays"/>
+
+## 1- Arrays and Linked lists
+
+
+
+
