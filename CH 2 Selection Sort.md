@@ -121,16 +121,12 @@ print(selection_sort([5,7,3,4,6]))
         
 ```
 
+## Recap
 
-
-
-
-
-
-
-
-
-
-
-
-
+- Computer memory is like a giant set of drawers.
+- When you want to store multiple elements use an array or a list.
+- With an array all your elements are stored right next to each other.
+- With linked lists elements are strewn all over and each element stores the adress for the next one.
+- Arrays allow fast reads.
+- Linked lists allow fast inserts and delets.
+- All elements in array should be the same type (all int, all double ....).
