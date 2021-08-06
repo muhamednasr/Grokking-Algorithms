@@ -2,7 +2,7 @@
 
 in this chapter:
 
-1. [Arrays and Linked lists](#arrays).
+1. [Arrays and Linked lists](#arrlin).
 2. Selection sort algorithm.
 
 ### - How memory works
@@ -16,7 +16,7 @@ you store your two things and now you are ready for the show, this is basically 
 
 fe0ffeeb can be a slot address.
 
-<a name="arrays"/>
+<a name="arrlin"/>
 
 ## 1- Arrays and Linked lists
 sometimes you need to store a list in the memory, suppose you need to write an app to manage your todos, you will need to stor the todos as a list in the memory, you can use an array or a linked list.
