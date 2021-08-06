@@ -31,6 +31,19 @@ to solve this you should ask the computer for fixed number of slots from the beg
 
 so it's a good work around but it's not the best so the linked lists came to the picture to solve this issue. 
 
+### Linked lists
+
+with linked lists you can store items in any place in the memeory each item will have an address of the next element in the linked list.
+
+![Snag_3b2aa5f](https://user-images.githubusercontent.com/56140418/128438606-458d4656-874f-4b3f-8804-045d069c63ae.png)
+
+it's easy to add an item in the linked list add it and add it's address to the previous element of the linned list, if you want to find 10,000 slots in the memory. your memory might have 10,000 slots but it dosen't have 10,000 slots together, here comes the linked list. 
+so linked lists are much better at inserts, what are arrays good for?
+
+### Arrays
+
+
+
 
 
 
