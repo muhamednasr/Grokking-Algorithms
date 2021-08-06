@@ -57,4 +57,35 @@ arrays are different you know the address for every element in the array, suppos
 
 ### Inserting into the middle of a list
 
+Suppose you want to add an item in the middle of a list, for a linked list it would be easy, you have to change the address that the previous element points to, but for the arrays you have to shift the rest of the elements down. 
+
+![Snag_8754e5](https://user-images.githubusercontent.com/56140418/128525171-339524cf-fa54-477f-a5c0-7147c0b6e410.png)
+
+![Snag_876282](https://user-images.githubusercontent.com/56140418/128525182-a074af2d-6e40-499b-a093-298d6e0f0bc4.png)
+
+and if there's no place to sift elements you will have to move all the array to a new place in the memory.
+
+### Deletions
+
+What if we want to delete and element? for linked list it would be easy you have to change where the previous element points to, for arrays it would be easier than adding element in the middle of an array it will always work as you will be shifting things up not down, so you can always delete an element.
+
+what about deletion run time? 
+
+![Snag_8de810](https://user-images.githubusercontent.com/56140418/128526265-380c0662-0f6a-4d3b-90d4-c909e243f32e.png)
+
+Which are used more? arrays or linked lists? it dependes on the use case, but arrays see a lot of use because they allow random access,there are two types of access, random access and sequential access. sequential access means you have can access elements one by one, Random access means you can jump directly to the element you want, so arrays are a lot faster at reads.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
