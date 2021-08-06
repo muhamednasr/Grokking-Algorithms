@@ -20,6 +20,20 @@ fe0ffeeb can be a slot address.
 
 ## 1- Arrays and Linked lists
 sometimes you need to store a list in the memory, suppose you need to write an app to manage your todos, you will need to stor the todos as a list in the memory, you can use an array or a linked list.
+First: we would use an array which would mean your todos will be stored right next to each other.
+
+![Snag_3a85897](https://user-images.githubusercontent.com/56140418/128437892-55cd1323-ab54-4ab8-b5d9-672531849873.png)
+
+now if you want to add a fourth element to the todos list, that would be hard because the memeory slots beside those three are occupied by other tasks, now you have to move the entire list to another place to add the fourth element and so on if you want to add additional element you have to move the entire array once again, this would be really slow, 
+to solve this you should ask the computer for fixed number of slots from the begining , this is a good work around but you should be aware of : 
+- you may not need the extra slots reserved, that's a waste of memory because you won't use it and no boy else can use it.
+- you may exceed the number of slots reserved by the computer and thus you have to move the entire array again.
+
+so it's a good work around but it's not the best so the linked lists came to the picture to solve this issue. 
+
+
+
+
 
 
 
