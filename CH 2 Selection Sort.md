@@ -81,10 +81,44 @@ Which are used more? arrays or linked lists? it dependes on the use case, but ar
 
 ## 2- Selection sort
 
+Suppose you have a bunch of music on your phone and for each artist you have a play count, you want to sort this list from most to least played, so that you rank your favourite artist. 
 
+one way is to search the whole list for the most-played artist and add it to another list, do it again to find the next most-played artist, keep doing it and you will end up with a sorted list.
 
+To find the highest played artist you have to check each item in the list this means **O(n)** and you have to do it **n** times this means O(n x n) or  O(n^2). 
 
+![Snag_d35cd3](https://user-images.githubusercontent.com/56140418/128537135-fdc39b70-d856-46f2-adee-60787be2a0d6.png)
 
+- Sorting algorithms are so important you can use it to sort : 
+
+1. names in a phone book.
+2. travel dates.
+3. Emails (newest to oldest).
+
+```python
+
+def find_smallest:
+  smallest = arr[0]
+  smallest_index = 0
+  
+  for i in range(1,len(arr))
+     if arr[i] < smallest:
+        smallest = arr[i]
+        smallest_index = i
+        
+  return smallest_index 
+
+def selection_sort(arr):
+    newArr = []
+    
+    for i in range(len(arr)):
+        smallest = find_smallest(arr)
+        newArr.append(arr.pop(smallest))
+    return newArr
+    
+ print selection_sort([5,7,3,4,6])
+        
+```
 
 
 
