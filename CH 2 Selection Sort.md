@@ -42,15 +42,19 @@ so linked lists are much better at inserts, what are arrays good for?
 
 ### Arrays
 
+Linked list has a problem suppose you want to read the last element in the list, you can't just read it because you don't know what is it's address, you have to go to item #1 and find address to item #2 and then address to item #3 and so on till the last item.
+arrays are different you know the address for every element in the array, suppose your array contains five elements and you know your first element is at position 00, element five would be at position 04 ? right ? 
 
+![Snag_53b62d](https://user-images.githubusercontent.com/56140418/128517586-210cd11f-d1e0-45ad-8560-3f298868d81a.png)
 
+### Terminology
 
+- elements in the array are numbered, this numbering starts from 0 not 1.
+- the position of an element is called index.
+- here are some run times for common opperations on arrays and linked lists.
 
+![Snag_56084a](https://user-images.githubusercontent.com/56140418/128517943-ca749896-2563-452e-a177-a269d8b3883c.png)
 
-
-
-
-
-
+### Inserting into the middle of a list
 
 
