@@ -3,7 +3,7 @@
 in this chapter:
 
 1. [Arrays and Linked lists](#arrlin).
-2. Selection sort algorithm.
+2. [Selection sort algorithm](#Selectionsort).
 
 ### - How memory works
 Imagine you go to a show and you need to check you things, A chest of drawers is available, each drawers ca hold one thing, you want to store two things, so you ask for drawers.
@@ -77,7 +77,11 @@ Which are used more? arrays or linked lists? it dependes on the use case, but ar
 
 #### - Arrays and linked lists are bulding blocks to more complex data structures.
 
-## 2- Selection sort algorithm
+<a name='Selectionsort'/>
+
+## 2- Selection sort
+
+
 
 
 
