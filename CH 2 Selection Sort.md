@@ -97,11 +97,11 @@ To find the highest played artist you have to check each item in the list this m
 
 ```python
 
-def find_smallest:
+def find_smallest(arr):
   smallest = arr[0]
   smallest_index = 0
   
-  for i in range(1,len(arr))
+  for i in range(1,len(arr)):
      if arr[i] < smallest:
         smallest = arr[i]
         smallest_index = i
@@ -114,9 +114,10 @@ def selection_sort(arr):
     for i in range(len(arr)):
         smallest = find_smallest(arr)
         newArr.append(arr.pop(smallest))
+
     return newArr
-    
- print selection_sort([5,7,3,4,6])
+
+print(selection_sort([5,7,3,4,6]))
         
 ```
 
