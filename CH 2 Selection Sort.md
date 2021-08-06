@@ -75,6 +75,12 @@ what about deletion run time?
 
 Which are used more? arrays or linked lists? it dependes on the use case, but arrays see a lot of use because they allow random access,there are two types of access, random access and sequential access. sequential access means you have can access elements one by one, Random access means you can jump directly to the element you want, so arrays are a lot faster at reads.
 
+#### - Arrays and linked lists are bulding blocks to more complex data structures.
+
+## 2- Selection sort algorithm
+
+
+
 
 
 
