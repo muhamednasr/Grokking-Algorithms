@@ -1,8 +1,6 @@
 ### in this chapter:
 
-1. Recursion![Snag_2402299](https://user-images.githubusercontent.com/56140418/128761148-84ec5a19-4d44-4668-91d9-6ff1c153b446.png)
-![Snag_240921c](https://user-images.githubusercontent.com/56140418/128761216-5d75f0a5-e4c3-431a-a81f-38b667696586.png)
-
+1. Recursion
 
 Pseudo code is a high-level description of the problem you're trying to solve, it's writtem like code, but it's meant to be closer to human language.
  
@@ -84,6 +82,41 @@ def count_down(number):
   else:
   count_down(number-1) 
 ```
+
+![Snag_240921c](https://user-images.githubusercontent.com/56140418/128761216-5d75f0a5-e4c3-431a-a81f-38b667696586.png)
+
+### The Stack
+
+The stack is a very important programming concept, stack is a very simple data structure, when you insert an item to the stack it's added to the top of the stack, and when you remove an item from the stack you just remove the most top item in the stack and read it just like that.
+**push** (insert), **pop** (remove and read).
+
+![Snag_265121b](https://user-images.githubusercontent.com/56140418/128765855-5d01996a-fec8-490f-b557-a4e8c3ce930c.png)
+
+#### The call stack
+
+computer uses stack internally called **call stack** 
+
+```python
+def greet(name):
+  print 'hello' + name + ''
+  greet2(name)
+  print 'how are you' + name
+  bye()
+```
+this function calls two other functions **Greet2** and **bye**, let's see what happens when you call this function.
+
+suppose you call function **greet** the computer allocates a box of memory for the function for the call and saves all the variables in the function, then calls the **greet2** and again allocates a box of memory and save the variables of the function after pausing the **greet** function call, computer uses stack for all the boxes called **call stack** 
+
+![Snag_2857185](https://user-images.githubusercontent.com/56140418/128769947-bfa25332-f3a9-491c-baf4-6285249979db.png)
+
+after the **greet2** is done the function is popped of the stack and the call gets back to **greet** now it calls the **bye** function to proceed the function 
+
+![Snag_287ce9f](https://user-images.githubusercontent.com/56140418/128770257-16c8a665-3167-4a38-803b-d2cdfadf001d.png)
+
+and then the **bye** function is done and the call gets back to **greet** and this is the stack, it's used to call functions by sequence and save variable for each function call.
+
+### The stack with recursion
+
 
 
 
