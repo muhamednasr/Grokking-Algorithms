@@ -115,7 +115,7 @@ after the **greet2** is done the function is popped of the stack and the call ge
 
 and then the **bye** function is done and the call gets back to **greet** and this is the stack, it's used to call functions by sequence and save variable for each function call.
 
-### The stack with recursion
+### The call stack with recursion
 
 
 
