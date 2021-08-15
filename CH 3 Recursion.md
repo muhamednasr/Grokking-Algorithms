@@ -145,6 +145,13 @@ using stack is convenient, but there's a coast: saving all that calls can consum
 1. you can rewrite your code to use loops.
 2. you can use **tail recursion** that's and advanced recursion technique and not all languages support it.
 
+## Reacp
+
+1. Recusrion is when a function calls itself.
+2. Every recursive function has two cases: base case and recursive case.
+3. A stack has two operations: Push and Pop.
+4. All functions calls go into the Call stack.
+5. The call stack can get very tall which takes a lot of memory.
 
 
 
