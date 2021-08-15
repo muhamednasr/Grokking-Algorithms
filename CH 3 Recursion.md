@@ -1,9 +1,11 @@
 ### in this chapter:
 
-1. Recursion
+1. [Recursion](#recursion).
 
 Pseudo code is a high-level description of the problem you're trying to solve, it's writtem like code, but it's meant to be closer to human language.
  
+<a name="recusrion"> 
+
 ## Recusrion
 
 Suppose you are diggind through your grandma attic and you find a mysterious locked suit case and you've been told that the key to this case is in another box that contains other boxes what would be your searching algorithm to find the key? 
@@ -117,7 +119,31 @@ and then the **bye** function is done and the call gets back to **greet** and th
 
 ### The call stack with recursion
 
+Call stack is also used in case of recursion calls of functions, let's take an example and see, if we have to calculate the factorial of 3 = 3 * 2 * 1.
 
+```python
+def fact(x):
+   if x == 1:
+      return 1
+   else:
+      return x * fact(x-1)
+```
+now we call fact(3) and see what happens to the stack,
+
+![Snag_350e63c](https://user-images.githubusercontent.com/56140418/129464397-035af840-89a5-4326-8aea-6d689511eb66.png)
+
+function Fact() will be called thre times due to that the condition (X == 1) will be satisfied in the third call so that will be the stack after the three fact() calls,
+and all the functions calls will be half processed, now the app will start to complete processing calls by poping up the most recent function in the stack.
+
+![Snag_353ecd5](https://user-images.githubusercontent.com/56140418/129464459-7598c69e-dcdd-4353-8432-339aed7408c8.png)
+
+and returns the processing result.
+**Hence** not any of the calls are fully processed till now. 
+
+using stack is convenient, but there's a coast: saving all that calls can consume a lot of memory, each function call takes up some memory, at this point you have two options: 
+
+1. you can rewrite your code to use loops.
+2. you can use **tail recursion** that's and advanced recursion technique and not all languages support it.
 
 
 
